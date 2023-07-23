@@ -1,1 +1,5 @@
-
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/container?TC_INITSCRIPT=db/migration/V1__init.sql
+    username: postgres
+    password: postgres
